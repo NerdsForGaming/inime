@@ -1,0 +1,1 @@
+export const enimeApi = "https://api.enime.moe";

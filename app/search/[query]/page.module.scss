@@ -1,0 +1,12 @@
+.search-title {
+  margin-left: 10vw;
+  @apply text-4xl;
+}
+
+.animes {
+  grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+  //grid-template-rows: min-content;
+  column-gap: 1.25rem;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}

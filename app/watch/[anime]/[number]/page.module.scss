@@ -1,0 +1,48 @@
+.cont {
+  display: flex;
+  aspect-ratio: 2 / 0.8;
+}
+.episode {
+  flex: 1;
+}
+.next-eps::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.cur {
+  background-color: #333;
+  border-radius: 5px;
+  color: #eee;
+}
+// .cur::after {
+//   position: absolute;
+//   width: 200px;
+//   height: 200px;
+//   background-color: inset 0 0 50px 50px #ff0000b0;
+//   content: "";
+// }
+.currenttext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 25px;
+}
+.line {
+  width: 100%;
+  flex-basis: 1px;
+  height: 100000px;
+  background-color: #333;
+}
+.next-ep {
+  white-space: normal;
+  line-height: 1.75rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.next-ep > p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+}

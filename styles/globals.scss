@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "font";
+
+body {
+    margin: 0 !important;
+    font-family: 'Youtube-Sans', sans-serif;
+
+    overflow-x: hidden;
+    @apply bg-black;
+}
+
+.text-tertiary {
+    color: #777777;
+}
+
+.art-contextmenus {
+    display: none !important;
+}
+
+.text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+&-button {
+ // background-color: #111;
+     height: 0;
+ }
+&-thumb {
+     -webkit-appearance: none;
+     width: 8px;
+     min-height: 7%;
+     background-color: #333;
+     border-radius: 10px;
+
+&:hover {
+     background-color: #555;
+ }
+}
+&-track {
+     background-color: #111;
+ }
+}
+
+/* Removes scrollbars, across chrome and ff */
+.overflow-x-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.no-ads .google-auto-placed {
+  display: none !important;
+}
