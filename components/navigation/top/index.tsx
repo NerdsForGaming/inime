@@ -50,7 +50,7 @@ export default function TopNavigation() {
     return (
         <div className={classNames(styles["nav-cont"], "no-ads")}>
             <div className={classNames(searching ? "hidden" : null, styles.opts, "flex items-center gap-8 h-full mx-auto relative")} ref={optsRef}>
-                <NextLink href="/" className={classNames(styles["navbar-opt"], "text-4xl")}>Explore</NextLink>
+                <NextLink href="https://inime.vercel.app/" className={classNames(styles["navbar-opt"], "text-4xl")}>Explore</NextLink>
                 <div className="grid w-40">
                     <div className={classNames(styles.urmom, styles["navbar-opt"], "text-4xl flex flex-row flex-nowrap items-center px-2")}>
                         <svg width="1.5rem" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="4">
